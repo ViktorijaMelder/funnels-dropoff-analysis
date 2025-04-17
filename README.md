@@ -1,4 +1,4 @@
-# 🔄 Funnels – Drop-off & Conversion Analysis
+# Funnels – Drop-off & Conversion Analysis
 
 ## Project Overview
 
