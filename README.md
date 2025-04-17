@@ -25,7 +25,7 @@ The analysis was conducted using SQL in BigQuery and visualized in Google Sheets
 - Identify the core set of user events forming a funnel
 - Measure the number of users at each stage
 - Calculate **percentage drop-offs** from one stage to the next
-- Analyze event performance by **category** and **top 3 countries**
+- Analyze funnel behavior by **category** and **top 3 countries**
 - Visualize the user journey using a funnel chart
 
 ---
@@ -39,15 +39,27 @@ The analysis was conducted using SQL in BigQuery and visualized in Google Sheets
 
 ## Key Findings
 
-- Significant drop-off was observed between the first and second events, suggesting friction early in the user journey
-- Funnel performance varied across **event categories** and **countries**, offering potential for targeted UX or marketing improvements
-- The top 3 countries accounted for a large proportion of the total events and exhibited different funnel behaviors
+- The analysis focused on the **top 3 countries**, which demonstrated similar behaviors across funnel steps, allowing insights to be based on their **average drop-off rates**.
+
+- Different funnel stages showed varying levels of user drop-off. The most significant losses occurred between **View Item → Add to Cart** and **Session Start → View Item**, possibly due to missing information or unclear navigation. A moderate drop-off between **Shipping Info → Payment Info** also suggests potential friction from required sign-ins or hidden charges.
+
+- The **Add to Cart → Add Shipping Info** step had a **lower-than-average drop-off**, possibly indicating user trust or interface efficiency at that stage.
+
+- The most preferred platform for funnel engagement was **Desktop (58%)**, followed by **Mobile (40%)**, and **Tablet (2%)**.
+
+- Drop-off rates were **consistent across device categories**, indicating no major usability issues specific to one platform.
+
+---
+
+## Notes
+
+Brief recommendations based on this analysis—such as improving homepage navigation and revealing shipping costs earlier—are included in the project deliverable linked above.
 
 ---
 
 ## Acknowledgements
 
-- [Google BigQuery](https://cloud.google.com/bigquery) – SQL platform used for querying user event data
+- [Google BigQuery](https://cloud.google.com/bigquery) – SQL platform used for querying user event data  
 - Google Sheets – Used to build funnel visualizations and present metrics
 
 ---
