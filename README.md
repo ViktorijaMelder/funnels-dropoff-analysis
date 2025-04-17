@@ -39,7 +39,7 @@ The analysis was conducted using SQL in BigQuery and visualized in Google Sheets
 
 ## Key Findings
 
-- The analysis focused on the **top 3 countries**, which demonstrated similar behaviors across funnel steps, allowing insights to be based on their **average drop-off rates**.
+- The funnel analysis revealed the **highest user drop-off** occurred between the **View Item** and **Add to Cart** steps (79.27%), followed by **Session Start → View Item** (76.88%). These indicate potential friction in product discovery and purchase intent.
 
 - Different funnel stages showed varying levels of user drop-off. The most significant losses occurred between **View Item → Add to Cart** and **Session Start → View Item**, possibly due to missing information or unclear navigation. A moderate drop-off between **Shipping Info → Payment Info** also suggests potential friction from required sign-ins or hidden charges.
 
@@ -48,12 +48,6 @@ The analysis was conducted using SQL in BigQuery and visualized in Google Sheets
 - The most preferred platform for funnel engagement was **Desktop (58%)**, followed by **Mobile (40%)**, and **Tablet (2%)**.
 
 - Drop-off rates were **consistent across device categories**, indicating no major usability issues specific to one platform.
-
----
-
-## Notes
-
-Brief recommendations based on this analysis—such as improving homepage navigation and revealing shipping costs earlier—are included in the project deliverable linked above.
 
 ---
 
